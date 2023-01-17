@@ -1,0 +1,196 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .wrapper{
+    width: 100vw;
+    height: 100vh;
+} */
+#logo img{
+    height: 5em;
+    margin: 2em;
+    margin-top: 5em;
+    margin-left: 6em;
+}
+#navbar{
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    align-items: center; 
+    /* position: fixed; */
+    top: 0;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 10em;
+}
+#navbar ul li{
+    margin-top: 2em;
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    /* color: white; */
+    color: gray;
+    display: block;
+    padding: 3px 40px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+
+#navbar ul li a:hover{
+    color:blue;
+}
+.btn{
+    background-color:slateblue;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-left: 12em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3em;
+}
+#first{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+}
+.bio h1{
+    letter-spacing: 0.2rem;
+    margin-top: 50px;
+    margin-left: 2em;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 3em;
+    /* text-decoration: underline; */
+}
+.line{
+    margin-top: 1em;
+    width: 22em;
+    margin-left: 6.5em;
+    background-color: gray;
+}
+.bio p{
+    margin-top: 50px;
+    margin-left: 5em;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#pic{
+    margin-top: 50px;
+    margin-left: 12em;
+}
+#second{
+    display: flex;
+    position: relative;
+    margin-top: 8em;
+}
+#pic1{
+    margin-left: 6em;
+    margin-top: 7px;
+}
+.CEO p{
+    
+    margin-top: 50px;
+    margin-left: 12em;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.CEO h1{
+    letter-spacing: 0.2rem;
+    margin-left: 5em;
+    font-weight: bold;
+    font-size: 3em;
+    /* text-decoration: underline; */
+}
+.line1{
+    margin-top: 1em;
+    width: 20em;
+    margin-left: 15.5em;
+    background-color: gray;
+}
+footer{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.privacy{
+    margin-left: 3em;
+    width: 400px;
+}
+
+.privacy h3{
+    margin-top: 2em;
+}
+.privacy h3 a{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    /* text-decoration: none; */
+    color: slateblue;
+}
+.privacy p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.add{
+    /* margin-left: 2em; */
+    width: 400px;
+}
+.add h3{
+    color: slateblue;
+}
+.add h4{
+    font-size: 1.1rem;
+    margin-top: 3.2em;
+    color: slateblue;
+}
+.add p a{
+    color: gray;
+    text-decoration: none;
+    /* color: slateblue; */
+}
+.add p{
+    margin-top: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 1rem;
+}
+.menu{
+    margin-left: 1em;
+    width: 200px;
+}
+.menu h3{
+    color: slateblue;
+}
+.menu ul{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.menu ul li{
+    list-style: none;
+    letter-spacing: 0.1rem;
+    padding: 3px;
+}
+
+.menu ul li a{
+    color: gray;
+    text-decoration: none;
+
+}
+.icon{
+    margin-left: 6em;
+    width: 400px;
+}
+.icon img{
+    margin-left: 2em;
+    width: 50px;
+}
